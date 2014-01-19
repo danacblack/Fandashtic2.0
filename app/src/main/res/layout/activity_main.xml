@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.danacblack.app.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@android:color/black"
+    android:foreground="@android:color/transparent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/fandastic2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|top"
+        android:src="@drawable/globe"
+        android:background="@android:color/transparent"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS"
+        android:layout_gravity="left|center"
+        android:textSize="30dp"
+        android:paddingLeft="85dp"
+        android:paddingBottom="70dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="right|top"
+        android:src="@drawable/headphones"
+        android:background="@android:color/transparent"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:layout_gravity="right|center"
+        android:textSize="30dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="70dp"
+        android:textStyle="bold"/>
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingBottom="50dp"/>
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="100dp"
+        android:textSize="60dp"
+        android:paddingTop="0dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="75dp"
+        android:text="Information"
+        android:id="@+id/button"
+        android:layout_gravity="left|bottom" />
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="75dp"
+        android:text="Contact Dealer"
+        android:id="@+id/button2"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>
